@@ -30,3 +30,17 @@ console.log(saludo2(Luci))
 let nuevo = new Person("Pablo")
 let saludo3 = (nuevo) => `Hola, ${nuevo.name}`
 console.log(saludo3(nuevo))
+
+
+// ex 4   Funció de fletxa dins d'un loop: Crea una funció anomenada printNumbers que accepti un array de números i utilitzi un loop for per imprimir cada número a la consola utilitzant una funció de fletxa.
+
+let imprimir = document.getElementById("imprimir")
+let numbers = [1,2,3,4,5]
+
+function printNumbers(numbers) {
+    for (let i = 0; i < numbers.length; i++) {
+        (() => {imprimir.innerHTML += numbers[i] + "<br>"}) ()
+    }
+}
+
+printNumbers(numbers) 

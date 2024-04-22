@@ -44,3 +44,15 @@ function printNumbers(numbers) {
 }
 
 printNumbers(numbers) 
+
+// ex 5   Funció de fletxa amb 'setTimeout': Crea una funció de fletxa que imprimeixi un missatge a la consola després d'esperar 3 segons.
+
+const timeExecution = () => {
+    setTimeout(() => {
+        console.log ("Todos queremos programar")
+        let segundos = (3000/1000)
+        console.log (`Tiempo transcurrido para imprimir el mensaje: ${segundos} segundos.`)
+}, 3000) 
+}
+timeExecution()
+

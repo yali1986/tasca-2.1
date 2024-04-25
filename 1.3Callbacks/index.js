@@ -86,9 +86,4 @@ let print4 = document.getElementById("print4")
 
   function otraPalabra () {  
     print5.innerHTML += "y otraPalabra"
-  }
-
-
-
-
- 
+  } 

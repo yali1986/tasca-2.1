@@ -32,14 +32,8 @@ console.log(total2)
 
 // - La funció ha de retornar el resultat de la suma.
 
-// const total5 = num2M10.reduce(total, (num2) => total += num2 * 2, 0)
-// console.log(total5)
-
-  // const total5 = Array5.filter(num => (num >=10))
-  // console.log(total5)
-
 const Array5 = [ 1, 3, 7, 10 ,15, 17, 11, 5, 8, 12, 9 ]
-const num2M10 = Array5.filter(num => (num >=10)).reduce((total, num) => total += num * 2, 0) 
+const num2M10 = Array5.filter(num => (num >= 10)).reduce((total, num) => total += num * 2, 0) 
 console.log(num2M10)
 
 
